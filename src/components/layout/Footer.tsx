@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-6 pt-6 border-t border-green-500/20">
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-400">
             © {new Date().getFullYear()} {siteConfig.name} v{siteConfig.version} • Created by {siteConfig.creator.name}
           </p>
         </div>
