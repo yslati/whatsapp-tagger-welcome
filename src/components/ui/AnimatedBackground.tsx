@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 
 interface ParticleProps {
   id: number
@@ -13,6 +13,8 @@ interface ParticleProps {
 export function AnimatedBackground({ particleCount = 30 }: { particleCount?: number }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [mounted, setMounted] = useState(false)
+  const rafRef = useRef<number | undefined>(undefined)
+  const mouseRef = useRef({ x: 0, y: 0 })
 
   const particles = useMemo<ParticleProps[]>(() => 
     Array.from({ length: particleCount }, (_, i) => ({
@@ -24,16 +26,30 @@ export function AnimatedBackground({ particleCount = 30 }: { particleCount?: num
     }))
   , [particleCount])
 
+  const updateMousePosition = useCallback(() => {
+    setMousePosition({ x: mouseRef.current.x, y: mouseRef.current.y })
+    rafRef.current = undefined
+  }, [])
+
   useEffect(() => {
     setMounted(true)
     
     const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY })
+      mouseRef.current = { x: e.clientX, y: e.clientY }
+      
+      if (!rafRef.current) {
+        rafRef.current = requestAnimationFrame(updateMousePosition)
+      }
     }
     
     window.addEventListener('mousemove', handleMouseMove)
-    return () => window.removeEventListener('mousemove', handleMouseMove)
-  }, [])
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove)
+      if (rafRef.current) {
+        cancelAnimationFrame(rafRef.current)
+      }
+    }
+  }, [updateMousePosition])
 
   return (
     <div className="fixed inset-0 z-0">
@@ -42,19 +58,15 @@ export function AnimatedBackground({ particleCount = 30 }: { particleCount?: num
       {mounted && (
         <>
           <div 
-            className="absolute w-96 h-96 bg-green-500/20 rounded-full blur-3xl transition-all duration-100 ease-out"
+            className="absolute w-96 h-96 bg-green-500/20 rounded-full blur-3xl will-change-transform"
             style={{
-              left: mousePosition.x / 10,
-              top: mousePosition.y / 10,
-              transform: 'translate(-50%, -50%)'
+              transform: `translate(${mousePosition.x / 10 - 192}px, ${mousePosition.y / 10 - 192}px)`,
             }}
           />
           <div 
-            className="absolute w-96 h-96 bg-green-400/15 rounded-full blur-3xl transition-all duration-150 ease-out"
+            className="absolute w-96 h-96 bg-green-400/15 rounded-full blur-3xl will-change-transform"
             style={{
-              right: mousePosition.x / 15,
-              bottom: mousePosition.y / 15,
-              transform: 'translate(50%, 50%)'
+              transform: `translate(${window.innerWidth - mousePosition.x / 15 - 192}px, ${window.innerHeight - mousePosition.y / 15 - 192}px)`,
             }}
           />
           
