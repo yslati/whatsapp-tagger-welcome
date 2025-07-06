@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from 'next/font/google'
 import "./globals.css";
 import { siteConfig } from "@/data/content";
+import GoogleAnalytics from "@/components/tools/GoogleAnalytics";
+import { GoogleTagManagerBody, GoogleTagManagerHead } from "@/components/tools/GoogleTagManager";
+import MicrosoftClarity from "@/components/tools/MicrosoftClarity";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -59,8 +62,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <GoogleAnalytics />
+        <GoogleTagManagerHead />
+        <MicrosoftClarity />
+      </head>
       <body className={inter.className}>
         {children}
+        <GoogleTagManagerBody />
       </body>
     </html>
   );
