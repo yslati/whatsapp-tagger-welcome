@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WhatsApp Everyone Tagger - Welcome Page
 
-## Getting Started
+This is the official welcome page for the WhatsApp Everyone Tagger Chrome extension built with Next.ts 14 and App Router.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Design**: Cutting-edge UI with glassmorphism and animations
+- **WhatsApp Green Theme**: Consistent branding with WhatsApp colors  
+- **SSR Support**: Server-side rendering for better SEO and performance
+- **Responsive**: Mobile-first design that works on all devices
+- **Performance Optimized**: Fast loading with optimized assets
+- **SEO Ready**: Complete meta tags and Open Graph support
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.ts 15 with App Router
+- **Styling**: Tailwind CSS with custom animations
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+
+## 🏃‍♂️ Getting Started
+
+1. **Install dependencies:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run development server:**
+```bash
+bun run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Build for production:**
+```bash
+bun run build
+bun start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📊 Performance Features
 
-## Learn More
+- **SSR**: Server-side rendering for faster initial load
+- **Code Splitting**: Automatic code splitting with Next.ts
+- **Image Optimization**: Built-in Next.ts image optimization
+- **SEO Optimized**: Complete meta tags and structured data
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All content and configuration is centralized in `data/content.ts`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Site metadata and URLs
+- Feature descriptions and stats  
+- Step-by-step guide content
+- Navigation links and social links
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the MIT License.
+```
