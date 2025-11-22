@@ -3,9 +3,9 @@ export const whatsappExtensionUrl = "https://chromewebstore.google.com/detail/wh
 
 export const siteConfig = {
   name: "WhatsApp Everyone Tagger",
-  version: "2.0.0",
+  version: "2.2.4",
   description: "The most advanced WhatsApp group tagging extension. Works in any language, any group size, with zero configuration.",
-  url: "https://whatsapp-tagger-welcome.vercel.app",
+  url: "https://www.tageveryone.online/",
   creator: {
     name: "Yassin Slati",
     email: "contact@slati.me",
@@ -17,6 +17,7 @@ export const siteConfig = {
 export const navigationLinks = [
   { href: "#features", label: "Features" },
   { href: "#guide", label: "Guide" },
+  { href: "/privacy-policy", label: "Privacy Policy" }
 ]
 
 export interface Stat {
@@ -95,6 +96,10 @@ export const stepsData: Step[] = [
 ]
 
 export const footerData = [
+  {
+    label: 'Privacy Policy',
+    href: '/privacy-policy',
+  },
   {
     label: 'Portfolio',
     href: siteConfig.creator.portfolio,
