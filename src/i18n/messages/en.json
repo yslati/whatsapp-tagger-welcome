@@ -1,0 +1,96 @@
+{
+  "info": {
+    "title": "WhatsApp Everyone Tagger",
+    "description": "Revolutionize your WhatsApp group management with WhatsApp Everyone Tagger. Effortlessly tag all members in any group chat with a single click. Compatible with all group types, lightning-fast, and privacy-focused. Download now and experience the magic!"
+  },
+  "navigation": {
+    "features": "Features",
+    "guide": "Guide",
+    "privacyPolicy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "forCommunity": "for the WhatsApp community",
+    "privacyPolicy": "Privacy Policy",
+    "portfolio": "Portfolio",
+    "github": "GitHub",
+    "contact": "Contact",
+    "copyright": "Created by"
+  },
+  "hero": {
+    "badge": "Now with smart detection",
+    "title1": "Tag Everyone",
+    "title2": "Like Magic ✨",
+    "subtitle": "Your group management just got",
+    "subtitleHighlight": "10x easier",
+    "startNow": "Start Using Now",
+    "downloadExtension": "Download Extension",
+    "version": "Version",
+    "stats": {
+      "oneClick": "One-Click",
+      "zeroConfig": "Zero configuration",
+      "activeUsers": "Active Users",
+      "groupsTagged": "Groups Tagged",
+      "timeSaved": "Time Saved"
+    }
+  },
+  "features": {
+    "title1": "Powerful",
+    "title2": "Features",
+    "subtitle": "Cutting-edge technology meets intuitive design. Experience the future of WhatsApp group management.",
+    "allGroupTypes": {
+      "title": "All Group Types",
+      "description": "Compatible with regular groups, communities, and enterprise groups up to 4000+ members",
+      "stats": "4k+ Members"
+    },
+    "lightningFast": {
+      "title": "Lightning Fast",
+      "description": "Tag hundreds of members in seconds with our optimized algorithm",
+      "stats": "< 2 Seconds"
+    },
+    "privacyFirst": {
+      "title": "Privacy First",
+      "description": "Zero data collection, end-to-end privacy, open source and transparent",
+      "stats": "100% Private"
+    }
+  },
+  "stepGuide": {
+    "title1": "Get Started in",
+    "title2": "60 Seconds",
+    "subtitle": "Follow our streamlined setup process and start tagging everyone instantly",
+    "steps": {
+      "install": {
+        "title": "Install Extension",
+        "description": "Add WhatsApp Everyone Tagger from Chrome Web Store"
+      },
+      "open": {
+        "title": "Open WhatsApp Web",
+        "description": "Navigate to web.whatsapp.com in your browser"
+      },
+      "select": {
+        "title": "Select Group Chat",
+        "description": "Open any group where you want to tag everyone"
+      },
+      "click": {
+        "title": "Click @everyone",
+        "description": "Find the magical button next to send"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Made with love for WhatsApp users worldwide",
+    "title1": "Ready to Transform Your",
+    "title2": "Group Management?",
+    "subtitle": "Join thousands of satisfied users who've revolutionized their WhatsApp experience. Start tagging everyone with just one click!",
+    "button": "Let's Go to WhatsApp Web"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "intro": "WhatsApp Everyone Tagger does not collect, store, or transmit any user data.",
+    "paragraph1": "The extension operates entirely locally within your browser and only interacts with the WhatsApp Web interface when you click the \"Tag Everyone\" button.",
+    "paragraph2": "No information is sent to any external servers, and no analytics or tracking is implemented.",
+    "paragraph3": "The extension requires permissions to access the WhatsApp Web page only to identify group members and insert @ mentions in the text input field.",
+    "lastUpdated": "Last updated: April 2025"
+  }
+}

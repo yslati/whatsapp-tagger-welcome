@@ -1,6 +1,7 @@
 {
-  "name": "tag-everyone",
-  "version": "0.1.0",
+  "name": "whatsapp-everyone",
+  "description": "WhatsApp Everyone Tagger is the fastest and simplest Chrome extension to tag everyone in WhatsApp Web. Tag all members in any WhatsApp group chat with one click. Perfect for admins, community managers, and teams. 100% safe, fast, and privacy-friendly. Install now and boost your WhatsApp group management.",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -11,16 +12,21 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "lucide-react": "^0.525.0",
-    "next": "15.3.5",
+    "next": "^16.0.5",
+    "next-intl": "^4.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "@types/node": "^20.19.25",
-    "@types/react": "^19.2.6",
-    "@types/react-dom": "^19.2.3",
     "@tailwindcss/postcss": "^4.1.17",
-    "tailwindcss": "^4.1.17"
+    "@types/node": "^20.19.25",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "baseline-browser-mapping": "^2.8.32",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "baseline-browser-mapping": "latest"
   }
 }

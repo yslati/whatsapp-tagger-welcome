@@ -1,4 +1,4 @@
-import { Feature } from '@/data/content'
+import { Feature } from '@/data/types'
 import { icons, LucideIcon } from 'lucide-react'
 
 interface FeatureCardProps {

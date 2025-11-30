@@ -1,4 +1,4 @@
-import { Step } from '@/data/content';
+import { Step } from '@/data/types';
 import { icons, LucideIcon } from 'lucide-react';
 
 interface StepCardProps {
@@ -19,11 +19,11 @@ export default function StepCard({ step, index, isActive, onClick }: StepCardPro
       <div className={`glass-effect rounded-3xl p-8 transition-all duration-500 hover-lift ${
         isActive ? 'ring-2 ring-green-400/50 bg-white/10' : ''
       }`}>
-        <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-green-600/10 opacity-0 group-hover:opacity-100 rounded-3xl transition-opacity duration-500"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-green-500/10 to-green-600/10 opacity-0 group-hover:opacity-100 rounded-3xl transition-opacity duration-500"></div>
         
         <div className="relative">
           <div className="flex items-center justify-between mb-6">
-            <div className={`p-4 bg-gradient-to-r ${step.gradient} rounded-2xl`}>
+            <div className={`p-4 bg-linear-to-r ${step.gradient} rounded-2xl`}>
               <IconComponent className="w-8 h-8" />
             </div>
             <span className="text-3xl font-black text-white/20">

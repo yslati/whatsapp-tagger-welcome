@@ -1,0 +1,96 @@
+{
+  "info": {
+    "title": "WhatsApp Everyone Tagger",
+    "description": "Révolutionnez la gestion de vos groupes WhatsApp avec WhatsApp Everyone Tagger. Identifiez facilement tous les membres dans n'importe quel chat de groupe en un seul clic. Compatible avec tous les types de groupes, ultra-rapide et axé sur la confidentialité. Téléchargez-le maintenant et vivez la magie!"
+  },
+  "navigation": {
+    "features": "Fonctionnalités",
+    "guide": "Guide",
+    "privacyPolicy": "Politique de confidentialité",
+    "contact": "Contact"
+  },
+  "footer": {
+    "madeWith": "Fait avec",
+    "forCommunity": "pour la communauté WhatsApp",
+    "privacyPolicy": "Politique de confidentialité",
+    "portfolio": "Portfolio",
+    "github": "GitHub",
+    "contact": "Contact",
+    "copyright": "Créé par"
+  },
+  "hero": {
+    "badge": "Maintenant avec détection intelligente",
+    "title1": "Taguez Tout le Monde",
+    "title2": "Comme par Magie ✨",
+    "subtitle": "Votre gestion de groupe vient de devenir",
+    "subtitleHighlight": "10 fois plus facile",
+    "startNow": "Commencer Maintenant",
+    "downloadExtension": "Télécharger l'Extension",
+    "version": "Version",
+    "stats": {
+      "oneClick": "Un Clic",
+      "zeroConfig": "Zéro configuration",
+      "activeUsers": "Utilisateurs Actifs",
+      "groupsTagged": "Groupes Tagués",
+      "timeSaved": "Temps Économisé"
+    }
+  },
+  "features": {
+    "title1": "Fonctionnalités",
+    "title2": "Puissantes",
+    "subtitle": "La technologie de pointe rencontre le design intuitif. Découvrez l'avenir de la gestion des groupes WhatsApp.",
+    "allGroupTypes": {
+      "title": "Tous les Types de Groupes",
+      "description": "Compatible avec les groupes réguliers, les communautés et les groupes d'entreprise jusqu'à 4000+ membres",
+      "stats": "4k+ Membres"
+    },
+    "lightningFast": {
+      "title": "Ultra Rapide",
+      "description": "Taguez des centaines de membres en quelques secondes avec notre algorithme optimisé",
+      "stats": "< 2 Secondes"
+    },
+    "privacyFirst": {
+      "title": "Confidentialité d'Abord",
+      "description": "Zéro collecte de données, confidentialité de bout en bout, open source et transparent",
+      "stats": "100% Privé"
+    }
+  },
+  "stepGuide": {
+    "title1": "Commencez en",
+    "title2": "60 Secondes",
+    "subtitle": "Suivez notre processus de configuration simplifié et commencez à taguer tout le monde instantanément",
+    "steps": {
+      "install": {
+        "title": "Installer l'Extension",
+        "description": "Ajoutez WhatsApp Everyone Tagger depuis le Chrome Web Store"
+      },
+      "open": {
+        "title": "Ouvrir WhatsApp Web",
+        "description": "Accédez à web.whatsapp.com dans votre navigateur"
+      },
+      "select": {
+        "title": "Sélectionner un Chat de Groupe",
+        "description": "Ouvrez n'importe quel groupe où vous voulez taguer tout le monde"
+      },
+      "click": {
+        "title": "Cliquez sur @everyone",
+        "description": "Trouvez le bouton magique à côté d'envoyer"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Fait avec amour pour les utilisateurs de WhatsApp du monde entier",
+    "title1": "Prêt à Transformer Votre",
+    "title2": "Gestion de Groupe?",
+    "subtitle": "Rejoignez des milliers d'utilisateurs satisfaits qui ont révolutionné leur expérience WhatsApp. Commencez à taguer tout le monde en un seul clic!",
+    "button": "Allons sur WhatsApp Web"
+  },
+  "privacyPolicy": {
+    "title": "Politique de confidentialité",
+    "intro": "WhatsApp Everyone Tagger ne collecte, ne stocke ni ne transmet aucune donnée utilisateur.",
+    "paragraph1": "L'extension fonctionne entièrement en local dans votre navigateur et n'interagit avec l'interface WhatsApp Web que lorsque vous cliquez sur le bouton \"Taguer tout le monde\".",
+    "paragraph2": "Aucune information n'est envoyée à des serveurs externes et aucune analyse ou suivi n'est mis en œuvre.",
+    "paragraph3": "L'extension nécessite des autorisations pour accéder à la page WhatsApp Web uniquement pour identifier les membres du groupe et insérer des mentions @ dans le champ de saisie de texte.",
+    "lastUpdated": "Dernière mise à jour : Avril 2025"
+  }
+}
