@@ -15,8 +15,8 @@ export const siteConfig = {
 }
 
 export const navigationLinks = [
-  { href: "#features", label: "Features" },
-  { href: "#guide", label: "Guide" },
+  { href: "/#features", label: "Features" },
+  { href: "/#guide", label: "Guide" },
   { href: "/privacy-policy", label: "Privacy Policy" }
 ]
 
@@ -28,7 +28,7 @@ export interface Stat {
 
 export const statsData: Stat[] = [
   { label: "Zero configuration", value: "One-Click", icon: "MousePointer2" },
-  { label: "Active Users", value: "1K+", icon: "Users" },
+  { label: "Active Users", value: "4K+", icon: "Users" },
   { label: "Groups Tagged", value: "2M+", icon: "MessageCircle" },
   { label: "Time Saved", value: "1000hrs", icon: "Zap" }
 ]
@@ -44,8 +44,8 @@ export const featuresData: Feature[] = [
   {
     icon: "Users",
     title: "All Group Types",
-    description: "Compatible with regular groups, communities, and enterprise groups up to 1000+ members",
-    stats: "1k+ Members"
+    description: "Compatible with regular groups, communities, and enterprise groups up to 4000+ members",
+    stats: "4k+ Members"
   },
   {
     icon: "Zap",

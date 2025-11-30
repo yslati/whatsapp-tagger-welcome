@@ -12,11 +12,11 @@ const PrivacyPolicyPage = () => {
       <main className="relative z-10 pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-green-500/20 to-green-600/20 backdrop-blur-xl border border-green-500/20 rounded-2xl mb-6">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-linear-to-r from-green-500/20 to-green-600/20 backdrop-blur-xl border border-green-500/20 rounded-2xl mb-6">
               <Shield className="w-10 h-10 text-green-400" />
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6">
-              <span className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">
                 Privacy Policy
               </span>
             </h1>

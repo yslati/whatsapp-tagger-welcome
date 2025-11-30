@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: siteConfig.name,
     short_name: 'WhatsApp Tagger',
     description: siteConfig.description,
-    start_url: '/',
+    start_url: '/en',
     display: 'standalone',
     background_color: '#000000',
     theme_color: '#22c55e',
