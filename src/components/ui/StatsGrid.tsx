@@ -1,4 +1,4 @@
-import { Stat } from '@/data/content'
+import { Stat } from '@/data/types'
 import { icons, LucideIcon } from 'lucide-react'
 
 export default function StatsGrid({ stats }: { stats: Stat[] }) {

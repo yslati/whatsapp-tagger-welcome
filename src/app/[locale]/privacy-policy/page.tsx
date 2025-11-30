@@ -2,8 +2,11 @@ import Navigation from '@/components/layout/Navigation'
 import Footer from '@/components/layout/Footer'
 import { AnimatedBackground } from '@/components/ui/AnimatedBackground'
 import { Shield } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 const PrivacyPolicyPage = () => {
+  const t = useTranslations('privacyPolicy');
+  
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden relative">
       <AnimatedBackground />
@@ -17,31 +20,21 @@ const PrivacyPolicyPage = () => {
             </div>
             <h1 className="text-5xl md:text-6xl font-black mb-6">
               <span className="bg-linear-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">
-                Privacy Policy
+                {t('title')}
               </span>
             </h1>
           </div>
 
           <div className="glass-effect rounded-3xl p-8 md:p-12 space-y-6">
-            <p className="text-lg text-gray-300 leading-relaxed">
-              WhatsApp Everyone Tagger does not collect, store, or transmit any user data.
-            </p>
-
-            <p className="text-lg text-gray-300 leading-relaxed">
-              The extension operates entirely locally within your browser and only interacts with the WhatsApp Web interface when you click the "Tag Everyone" button.
-            </p>
-
-            <p className="text-lg text-gray-300 leading-relaxed">
-              No information is sent to any external servers, and no analytics or tracking is implemented.
-            </p>
-
-            <p className="text-lg text-gray-300 leading-relaxed">
-              The extension requires permissions to access the WhatsApp Web page only to identify group members and insert @ mentions in the text input field.
-            </p>
+            {['intro', 'paragraph1', 'paragraph2', 'paragraph3'].map((key) => (
+              <p key={key} className="text-lg text-gray-300 leading-relaxed">
+                {t(key)}
+              </p>
+            ))}
 
             <div className="pt-8 border-t border-green-500/20">
               <p className="text-sm text-gray-400">
-                Last updated: April 2025
+                {t('lastUpdated')}
               </p>
             </div>
           </div>

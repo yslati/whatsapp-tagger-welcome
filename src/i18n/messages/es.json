@@ -1,3 +1,96 @@
 {
-  
+  "info": {
+    "title": "WhatsApp Everyone Tagger",
+    "description": "Revoluciona la gestión de tus grupos de WhatsApp con WhatsApp Everyone Tagger. Etiqueta fácilmente a todos los miembros en cualquier chat grupal con un solo clic. Compatible con todo tipo de grupos, súper rápido y enfocado en la privacidad. ¡Descárgalo ahora y experimenta la magia!"
+  },
+  "navigation": {
+    "features": "Características",
+    "guide": "Guía",
+    "privacyPolicy": "Política de privacidad",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "madeWith": "Hecho con",
+    "forCommunity": "para la comunidad de WhatsApp",
+    "privacyPolicy": "Política de privacidad",
+    "portfolio": "Portafolio",
+    "github": "GitHub",
+    "contact": "Contacto",
+    "copyright": "Creado por"
+  },
+  "hero": {
+    "badge": "Ahora con detección inteligente",
+    "title1": "Etiqueta a Todos",
+    "title2": "Como por Arte de Magia ✨",
+    "subtitle": "Tu gestión de grupos acaba de ser",
+    "subtitleHighlight": "10 veces más fácil",
+    "startNow": "Comenzar Ahora",
+    "downloadExtension": "Descargar Extensión",
+    "version": "Versión",
+    "stats": {
+      "oneClick": "Un Clic",
+      "zeroConfig": "Cero configuración",
+      "activeUsers": "Usuarios Activos",
+      "groupsTagged": "Grupos Etiquetados",
+      "timeSaved": "Tiempo Ahorrado"
+    }
+  },
+  "features": {
+    "title1": "Características",
+    "title2": "Potentes",
+    "subtitle": "Tecnología de vanguardia con diseño intuitivo. Experimenta el futuro de la gestión de grupos de WhatsApp.",
+    "allGroupTypes": {
+      "title": "Todos los Tipos de Grupos",
+      "description": "Compatible con grupos regulares, comunidades y grupos empresariales de hasta 4000+ miembros",
+      "stats": "4k+ Miembros"
+    },
+    "lightningFast": {
+      "title": "Súper Rápido",
+      "description": "Etiqueta cientos de miembros en segundos con nuestro algoritmo optimizado",
+      "stats": "< 2 Segundos"
+    },
+    "privacyFirst": {
+      "title": "Privacidad Primero",
+      "description": "Cero recopilación de datos, privacidad de extremo a extremo, código abierto y transparente",
+      "stats": "100% Privado"
+    }
+  },
+  "stepGuide": {
+    "title1": "Comienza en",
+    "title2": "60 Segundos",
+    "subtitle": "Sigue nuestro proceso de configuración simplificado y comienza a etiquetar a todos al instante",
+    "steps": {
+      "install": {
+        "title": "Instalar Extensión",
+        "description": "Agrega WhatsApp Everyone Tagger desde Chrome Web Store"
+      },
+      "open": {
+        "title": "Abrir WhatsApp Web",
+        "description": "Navega a web.whatsapp.com en tu navegador"
+      },
+      "select": {
+        "title": "Seleccionar Chat de Grupo",
+        "description": "Abre cualquier grupo donde quieras etiquetar a todos"
+      },
+      "click": {
+        "title": "Haz Clic en @everyone",
+        "description": "Encuentra el botón mágico junto al botón de enviar"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Hecho con amor para usuarios de WhatsApp en todo el mundo",
+    "title1": "¿Listo para Transformar tu",
+    "title2": "Gestión de Grupos?",
+    "subtitle": "Únete a miles de usuarios satisfechos que han revolucionado su experiencia de WhatsApp. ¡Comienza a etiquetar a todos con solo un clic!",
+    "button": "Vamos a WhatsApp Web"
+  },
+  "privacyPolicy": {
+    "title": "Política de privacidad",
+    "intro": "WhatsApp Everyone Tagger no recopila, almacena ni transmite ningún dato del usuario.",
+    "paragraph1": "La extensión funciona completamente de forma local en su navegador y solo interactúa con la interfaz de WhatsApp Web cuando hace clic en el botón \"Etiquetar a todos\".",
+    "paragraph2": "No se envía ninguna información a servidores externos y no se implementa ningún análisis ni seguimiento.",
+    "paragraph3": "La extensión requiere permisos para acceder a la página de WhatsApp Web solo para identificar a los miembros del grupo e insertar menciones @ en el campo de entrada de texto.",
+    "lastUpdated": "Última actualización: Abril 2025"
+  }
 }

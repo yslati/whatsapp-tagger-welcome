@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: 'WhatsApp Everyone Tagger - Tag All Group Members Instantly',
-  description: 'The most advanced WhatsApp group tagging extension. Works in any language, any group size, with zero configuration. Your group management just got 10x easier.',
-  keywords: 'WhatsApp, group tagging, extension, Chrome, group management, tag everyone',
+  description: "WhatsApp Everyone Tagger is the fastest and simplest Chrome extension to tag everyone in WhatsApp Web. Tag all members in any WhatsApp group chat with one click. Perfect for admins, community managers, and teams. 100% safe, fast, and privacy-friendly. Install now and boost your WhatsApp group management.",
+  keywords: 'WhatsApp, group tagging, extension, Chrome, group management, tag everyone, WhatsApp everyone, tag everyone WhatsApp, WhatsApp Chrome extension, WhatsApp everyone tagger',
   authors: [{ name: siteConfig.creator.name, url: siteConfig.creator.portfolio }],
   creator: siteConfig.creator.name,
   icons: {
